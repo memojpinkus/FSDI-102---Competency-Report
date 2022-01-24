@@ -1,0 +1,29 @@
+td.error{
+    color: red;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-child{
+    background-color: green;
+    color: greenyellow;
+    border: 1px solid green;
+    padding: 10px;
+    width: 1000px;
+}
+
+nav.site-header{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width:768px){
+    nav.site-header{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
